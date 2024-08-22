@@ -60,6 +60,7 @@
             Lbl_TotalGeral = new System.Windows.Forms.Label();
             Txt_TotalGeral = new System.Windows.Forms.TextBox();
             label5 = new System.Windows.Forms.Label();
+            Txt_Fechar_Pedido = new System.Windows.Forms.Button();
             SuspendLayout();
             // 
             // label1
@@ -143,7 +144,7 @@
             // 
             // Btn_reajuste
             // 
-            Btn_reajuste.Location = new System.Drawing.Point(89, 274);
+            Btn_reajuste.Location = new System.Drawing.Point(248, 274);
             Btn_reajuste.Name = "Btn_reajuste";
             Btn_reajuste.Size = new System.Drawing.Size(112, 34);
             Btn_reajuste.TabIndex = 8;
@@ -153,7 +154,7 @@
             // 
             // Btn_limpar
             // 
-            Btn_limpar.Location = new System.Drawing.Point(296, 274);
+            Btn_limpar.Location = new System.Drawing.Point(437, 274);
             Btn_limpar.Name = "Btn_limpar";
             Btn_limpar.Size = new System.Drawing.Size(112, 34);
             Btn_limpar.TabIndex = 9;
@@ -162,7 +163,7 @@
             // 
             // Btn_sair
             // 
-            Btn_sair.Location = new System.Drawing.Point(517, 274);
+            Btn_sair.Location = new System.Drawing.Point(632, 274);
             Btn_sair.Name = "Btn_sair";
             Btn_sair.Size = new System.Drawing.Size(112, 34);
             Btn_sair.TabIndex = 10;
@@ -339,11 +340,21 @@
             label5.TabIndex = 31;
             label5.Text = "TOTAL";
             // 
+            // Txt_Fechar_Pedido
+            // 
+            Txt_Fechar_Pedido.Location = new System.Drawing.Point(71, 274);
+            Txt_Fechar_Pedido.Name = "Txt_Fechar_Pedido";
+            Txt_Fechar_Pedido.Size = new System.Drawing.Size(139, 34);
+            Txt_Fechar_Pedido.TabIndex = 32;
+            Txt_Fechar_Pedido.Text = "Fechar Pedido";
+            Txt_Fechar_Pedido.UseVisualStyleBackColor = true;
+            // 
             // Frm_mercadorias
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(1206, 710);
+            Controls.Add(Txt_Fechar_Pedido);
             Controls.Add(label5);
             Controls.Add(Txt_TotalGeral);
             Controls.Add(Lbl_TotalGeral);
@@ -416,5 +427,6 @@
         private System.Windows.Forms.Label Lbl_TotalGeral;
         private System.Windows.Forms.TextBox Txt_TotalGeral;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button Txt_Fechar_Pedido;
     }
 }

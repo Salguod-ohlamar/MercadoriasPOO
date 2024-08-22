@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -39,7 +40,15 @@ namespace MercadoriasPOO
                 "Preço inicial: " + produto1.preco.ToString("c2") + "\n";
             //produto1.Atualiza_Preco(10);
             Lbl_resultado.Text += "Novo preço: " + produto1.preco.ToString("c2") + "\n\n";
+            produto1.qte =Convert.ToInt32(Txt_Q1.Text);
             produto1.total = produto1.Soma_Valores;
+
+
+
+
+
+
+
 
             Lbl_resultado.Text += "Produto 2 :" + produto2.nome + "\n" +
                 "Preço inicial: " + produto2.preco.ToString("c2") + "\n";
